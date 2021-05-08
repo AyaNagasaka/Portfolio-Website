@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    background-color: #333756;
+    background-image: url('../images/logo_trans.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 2.2em;
+    margin-bottom: 3%;
+}
+
+button {
+    background-color: #EB3BA5;
+    display: block;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 1em;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1c1f30;
+}
+
+#box {
+    padding-top: 100px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#box .box-wrapper {
+    color: white;
+    padding: 50px;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+#box .box-wrapper h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+#projects {
+    margin-bottom: 5px;
+    padding-top: 70px;
+}
+
+#about {
+    padding-top: 120px;
+}
+
+#submit {
+    padding: 10px;
+    background-color: #F1CB1D;
+    border-radius: 8px;
+}
+
+#contact {
+    padding-top: 60px;
+    margin-right: 10px;
+}
+
+#about #about-article {
+    float: right;
+    width: 30%;
+    display: inline;
+    margin: 13% 10% 10% 5%;
+    padding: 50px;
+    position: absolute;
+}
+
+#social-media {
+    float: left;
+    margin: 15% 12% 0 10%;
+    display: inline;
+    padding: 30px;
+}
+
+.fab {
+    padding: 10px;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 20px;
+    background: #dce0fa;
+    border-radius: 10px;
+}
+
+.fa-facebook-square {
+    color: #3B5998;
+    width: inherit;
+}
+
+.fa-github-square {
+    color: #7B258B;
+    
+}
+
+.fa-discord {
+    color: #7289DA;
+}
+
+.top-nav {
+    background-color: #00000000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.top-nav .logo {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 0 0 0 10px;
+}
+
+.top-nav nav {
+    float: right;
+    padding: 3% 3% 0 0;
+}
+
+.top-nav nav a:hover {
+    color: #6DBDE1;
+}
+
+.top-nav nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+}
+
+.top-nav nav ul li a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: 'Krona One', sans-serif;
+}
+
+.some-info {
+    margin: 17% 15% 0;
+}
+
+.some-text {
+    margin-bottom: 17%;
+}
+
+.clr {
+    clear: both;
+}
+
+.project-wrapper {
+    padding: 34px;
+}
+
+.text-wrapper {
+    padding: 0 34px 0;
+}
+
+.text-wrapper #text-article {
+    float: left;
+    width: 30%;
+    padding: 21px;
+}
+
+.project-wrapper #box-article {
+    display: inline;
+    padding: 12px;
+}
+
+.container-left {
+    width: 40%;
+    float: left;
+    text-align: center;
+    background-color: #49BC3B;
+    padding: 40px;
+    margin: 60px 20px 30px 50px;
+    height: 350px;
+    border-radius: 10px;
+    background-image: url('../images/geek-girl.png');
+    background-repeat: no-repeat;
+    background-position:top;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.container-left h2 {
+    color: #1c1f30;
+}
+
+.overlay-left {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #1c1f30;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.container-left:hover .overlay-left {
+    width: 100%;
+    left: 0;
+    border-radius: 10px;
+}
+
+.container-left .overlay-left .text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 40px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-left .overlay-left .text h2 {
+    color: #49BC3B;
+}
+
+.container-right {
+    width: 40%;
+    float: right;
+    text-align: center;
+    background-color: #F1CB1D;
+    padding: 40px;
+    margin: 40px 40px 50px;
+    height: 350px;
+    border-radius: 10px;
+    background-image: url('../images/email.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+}
+
+.container-right h2 {
+    margin-top: 40px;
+    color: #39393B;
+}
+
+.overlay-right {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #39393B;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.container-right:hover .overlay-right {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container-right .overlay-right .text {
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-right .overlay-right .text h2 {
+    color:#F1CB1D;
+}
+
+/* .container-right .overlay-right .form-wrapper {
+    width: 100%;
+} */
