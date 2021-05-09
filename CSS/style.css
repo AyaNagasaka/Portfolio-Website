@@ -182,10 +182,16 @@ footer {
     text-align: center;
     background: #dce0fa;
     border-radius: 10px;
+    transition: 0.3s;
+    padding: 3px;
+}
+
+.fab:hover {
+    font-size: 4em;
 }
 
 .fa-facebook-square {
-    color: #3B5998;
+    color: #0D8AF0;
 }
 
 .fa-github-square {
@@ -327,11 +333,10 @@ footer {
 }
 
 .wrapper {
-    float: left;
+    float: right;
     width: 100%;
     display: inline;
     position: absolute;
-    margin-left: 10px;
 }
 
 .wrapper h2 {
