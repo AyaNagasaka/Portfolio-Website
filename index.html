@@ -7,7 +7,6 @@
     <title>My Portfolio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d5d3533bb3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style.css">
@@ -40,13 +39,14 @@
                 <button>
                     <a href="#contact">Contact Me</a>
                 </button>
+                <div id="social-media">
+                    <a href="https://www.facebook.com/aya.nagasaka11/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://github.com/AyaNagasaka" target="_blank"><i class="fab fa-github-square"></i></a>
+                    <a href="https://discord.com/channels/@me" target="_blank"><i class="fab fa-discord"></i></a>
+                </div>
             </div>
         </div>
-        <div id="social-media">
-            <a href="https://www.facebook.com/aya.nagasaka11/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://github.com/AyaNagasaka" target="_blank"><i class="fab fa-github-square"></i></a>
-            <a href="https://discord.com/channels/@me" target="_blank"><i class="fab fa-discord"></i></a>
-        </div>
+        
     </header>
 
     <div class="clr"></div>
@@ -90,7 +90,9 @@
                 <h2>Meet Aya</h2>
                 <br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium reiciendis explicabo tenetur optio facere dolorum incidunt. Ratione, itaque laudantium omnis perspiciatis, inventore incidunt maxime magnam aperiam explicabo, sint provident.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium reiciendis explicabo tenetur optio facere dolorum incidunt. Ratione, itaque laudantium omnis perspiciatis, inventore incidunt maxime magnam aperiam explicabo, sint provident.</p>
+                <button>
+                    <a href="#">Know me more</a>
+                </button>
             </div>
         </article>
     </section>
@@ -98,7 +100,7 @@
     <div class="clr"></div>
 
     <section id="contact">
-        <article></article>
+        <article>
             <div class="wrapper">
                 <h2>Services Offered:</h2>
                 <div class="service-wrapper">
@@ -131,25 +133,16 @@
             </div>
 
             <div class="container-right">
-                <h2>Hover Here</h2>
-                <div class="overlay-right">
-                    <div class="text">
-                        <h2>Get in Touch</h2>
-                        <div class="form-wrapper">
-                            <form>
-                                <label for="name">Name:</label>
-                                <input type="text" id="name"><br>
-                                <label for="email">Email:</label>
-                                <input type="email" id="email"><br>
-                                <label for="contactNo">Contact No:</label>
-                                <input type="number" id="contactNo"><br>
-                                <label for="message">Your Message:</label>
-                                <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
-                                <input type="submit" value="Submit" id="submit">
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                <h2>Get in Touch</h2>
+                <div class="form-wrapper">
+                    <form>
+                        <input type="text" id="name" placeholder="Name"><br>
+                        <input type="email" id="email" placeholder="Email"><br>
+                        <input type="number" id="contactNo" placeholder="Contact No"><br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea><br>
+                        <input type="submit" value="Submit" id="submit">
+                    </form>
+                 </div>
             </div>
         </article>
     </section>
